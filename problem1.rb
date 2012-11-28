@@ -1,0 +1,1 @@
+(1...1000).select{|v|v % 3 == 0 || v % 5 == 0}.inject(0){|sum, i|sum = sum + i}
